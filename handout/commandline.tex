@@ -115,7 +115,7 @@ To start analyzing the actual data, we have to remove the header.
 \end{note}
 
 \begin{questions}
-How can we print the first 10 non-header lines (those that don't start with a ｀\#')?(Hint: \texttt{man grep} (remember to use pipes \texttt{\textbar}))
+How can we print the first 10 non-header lines (those that don't start with a '\#')?(Hint: \texttt{man grep} (remember to use pipes \texttt{\textbar}))
 \begin{answer}
 \begin{lstlisting}
 grep -v "\^\#" 1000gp.vcf | head  
